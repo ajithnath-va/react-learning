@@ -23,7 +23,7 @@ const HeaderQuickQuote = () => {
       </div>
       <div class="grid-container">
         <div class="grid-item">
-          <QuickQuoteTitle titlename="Comcast Business Mobile" />
+          <QuickQuoteTitle titlename="Business Mobile" />
         </div>
         <div class="grid-item">2</div>
       </div>

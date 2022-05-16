@@ -29,7 +29,7 @@ const QuickQuote = () => {
       <div class="container">
         <div class="row">
           <div style={{ padding: "10px" }} className="col-md-6">
-            <QuickQuoteTitle titlename="Comcast Business Mobile" />
+            <QuickQuoteTitle titlename="Business Mobile" />
             <LinesAndData uval="1" setcartSummaryResponse={setcartSummaryResponse} />
             <Devices />
             <CurrentMonthly />
