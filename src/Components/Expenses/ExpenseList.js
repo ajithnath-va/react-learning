@@ -3,6 +3,7 @@ import Card from "../UI/Card";
 import ExpensesFilter from "../ExpenseFilter/ExpenseFilter";
 import React,{ useState } from "react";
 import ExpenseFilterLogic from "./ExpenseFilterLogic";
+import ChartExpenses from "./ChartExpenses";
 
 const ExpenseList = (props) => {
   document.body.classList.remove('quickquotebody');
@@ -35,6 +36,7 @@ const ExpenseList = (props) => {
         />
 
         {/* {filteredContent} */}
+        <ChartExpenses expenses={results} />
         <ExpenseFilterLogic result={results} selectedYear={expensefilter} />
       </Card>
     </div>

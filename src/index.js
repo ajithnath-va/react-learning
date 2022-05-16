@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
+import '../src/indexMiniProject.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppQuickQuote from './AppQuickQuote';
+import AppRealQuickQuote from './AppRealQuickQuote';
+import AppMiniProject from './AppMiniProject';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <AppQuickQuote />
+    {/* <AppRealQuickQuote /> */}
+    <AppMiniProject />
   </React.StrictMode>,
   document.getElementById('root')
 );

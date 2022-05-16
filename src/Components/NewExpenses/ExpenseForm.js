@@ -47,7 +47,7 @@ const ExpenseForm = (props) => {
     eve.preventDefault();
     const expenseFormData = {
       title: titleval,
-      amount: amountval,
+      amount: +amountval,
       date: new Date(dateval),
     };
 
